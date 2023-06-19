@@ -2,93 +2,120 @@
 <html lang="en">
 
 <head>
-  
-    <style>
-        .div1 {
-            border: 2px solid rgb(220, 216, 216);
-            border-radius: 50px;
-            width: 500px;
-            text-align: left;
-            margin: auto;
-            padding: 10px 50px;
-            background-color: white;
-            font-family: "Times New Roman", Times, serif;
-        }
-        
-        body {
-            background-color: rgb(244, 244, 248);
-        }
-        
-        .Cont1 {
-            font-size: 14px;
-        }
-        
-        .freeconnector {
-            border-bottom: 1px solid rgb(220, 216, 216);
-            width: 500px;
-            text-align: left;
-            padding: 50px 77px 19px 4px;
-            margin: auto; 
-        }
-        
-        .eget {
-            border-bottom: 1px solid rgb(220, 216, 216);
-            width: 500px;
-            text-align: left; 
-            padding: 20px 77px 19px 4px;
-            margin: auto;
-        }
-        
-        .freeconnectorlast {
-            width: 500px;
-            text-align: left;
-            padding: 20px 77px 19px 4px;
-            margin: auto;
-        }
-        
-        button {
-            background-color: #27285C;
-            color: white;
-            font-size: 16px;
-            margin: center !important;
-            text-align: center;
-            border-radius: 50px;
-            width: 500px;
-            padding: 15px 30px;
-        }
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	
+	.main {
+    width: 300px;
+    margin: auto;
+    font-family: sans-serif;
+    text-align: left;
+   }
+   
+.box {
+    box-shadow: 1px 1px 5px 5px rgb(243, 243, 240);
+    border: 2px solid rgb(234, 234, 233);
+    border-radius: 30px;
+    text-align: left;
+    margin-top: 20px;
+    padding: 20px 30px;
+    background-color: white;
+    color: #565684;
+    width: 250px;
+}
 
-        .rightIcon {
-          float:left;
-          padding-right: 20px;
-        }
+.freeplantext {
+    color:#27285C;
+    font-weight: bold;
+}
 
-    </style>
+.dollartext {
+    color:#27285C;
+    font-weight: bold;
+    font-size:25px;
+}
+
+
+.cont {
+    color:#27285C;
+    font-weight: bold;
+}
+
+
+button {
+    background-color: #1a1a37;
+    color: white;
+    font-size: 16px;
+    margin: center;
+    text-align: center;
+    border-radius: 50px;
+    width: 250px;
+    height: 40px;
+    padding-bottom: 10px;
+}
+
+.rightIcon {
+   float:left;
+   padding-right: 20px;
+}
+
+  .freeconnector {
+   display: flex;
+   Margin-top:10px;
+}
+
+.freeconnector > div {
+   color: #565684;
+   border-bottom: 1px solid rgb(220, 216, 216);
+   height: 50px;
+   padding-left: 8px;
+   padding-top: 8px;
+   padding-right: 8px;
+   padding-bottom: 25px;  
+}
+
+.freeconnectorlast {
+   display: flex;
+   Margin-top:10px;
+}
+
+.freeconnectorlast > div {
+   border-bottom: 0px solid;
+   color: #565684;
+   height: 50px;
+   padding: 8px;
+   text-align: left;
+}
+	
+</style>
 </head>
 
 <body>
-    <div class="div1">
+  <div class="main">
 
-        <h4 class="Cont1">Free plan </h4>
-        <h2>$0</h2>
+      <div class="box">
+        <p class="freeplantext">Free plan </p>
+        <p class="dollartext">$0</p>
         <p>For early-stage startups looking to combine data from a few source</p>
         <br>
         <button type="button">Get started for free</button>
-    </div>
+      </div> <br>
+
+    <div class ="freeconnector">
+       <div class="rightIcon"> &#10003; </div>
+       <div><span class="cont"> Free Connectors.</span> Access to Postgres, Segment and Strip on this plan.</div>	
+   </div>
 
     <div class="freeconnector">
-        <span class="rightIcon">&#10003;</span>
-        <div><b>Free Connectors:</b>Access to Postgres, Segment and Strip on this plan.</div>
-    </div>
-
-    <div class="eget">
-        <span class="rightIcon">&#10003;</span>
-        <div><b>Up to 10,000 monthly active rows.</b>Sit ultricies eget ipsum pellentesque enim.</div>
+        <div class="rightIcon">&#10003;</div>
+        <div><span class="cont">Up to 10,000 monthly active rows.</span> Sit ultricies eget ipsum pellentesque enim.</div>
     </div>
 
     <div class="freeconnectorlast">
-        <span class="rightIcon">&#10003;</span>
-        <div><b>Free Connectors:</b> Access to Postgres, Segment and Strip on this plan.</div>
+        <div class="rightIcon">&#10003;</div>
+        <div><span class="cont">Free Connectors.</span> Access to Postgres, Segment and Strip on this plan.</div>
     </div>
 
+ </div>
 </body>
 </html>
