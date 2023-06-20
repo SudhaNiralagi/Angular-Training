@@ -1,5 +1,5 @@
 .main {
-    width: 98%;
+    width: 90%;
     margin: auto;
     top: 15px;
     position: relative;
@@ -10,7 +10,7 @@
 
 .radixexploresystem {
     width: 45%;
-    padding: 5px 0 0 80px;
+    padding: 5px 0 0 70px;
     margin-left: 40px;
     color:#babdbd;
 }
@@ -46,9 +46,9 @@
 .tokensalend {
     text-align:center;
     padding:10px;
-    font-size:16px;
+    font-size:18px;
     font-weight:bold;
-    color:#ecfdfc;
+    color:#f0f8f8;
     font-family: sans-serif;
 }
 
@@ -66,10 +66,11 @@
     box-shadow: 7px 0px 1px 2px linear-gradient(to top left, #4f3b47 0%, #786d74 100%);
     border-radius: 7px;
     background: linear-gradient(to top left, #4f3b47 0%, #786d74 100%);
-    color:white;
+    color:rgb(247, 244, 244);
     font-weight:bold;
     width: 25px;
-    height:25px;          
+    height:25px; 
+    font-size:18px;         
 }
 
 
