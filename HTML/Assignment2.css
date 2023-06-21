@@ -32,7 +32,6 @@
 }
 
 .tokensale {
-    box-shadow: -0.8px 0px 1px 0px;
     width: 30%;
     margin: 40px 0 40px 60px;
     height: 50%;
@@ -63,7 +62,6 @@
     text-align: center;
     border-left: 1px solid rgba(198, 194, 197, 0.5);
     border-right: 1px solid rgba(198, 194, 197, 0.1);
-    box-shadow: 7px 0px 1px 2px linear-gradient(to top left, #4f3b47 0%, #786d74 100%);
     border-radius: 7px;
     background: linear-gradient(to top left, #4f3b47 0%, #786d74 100%);
     color:rgb(247, 244, 244);
@@ -142,9 +140,8 @@
     left: 60px;
     width: 60%;
     height: 7px;
-    border-top: 3px solid #f93486;
+    border-top: 2px solid #f93486;
     border-radius: 170%/45px 40px 0px 0;
-    background:linear-gradient(to right, rgba(117, 3, 43, 0))
 }
 
 .blockchain {
